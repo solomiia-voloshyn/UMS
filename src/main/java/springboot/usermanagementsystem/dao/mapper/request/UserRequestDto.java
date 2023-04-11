@@ -1,4 +1,4 @@
-package springboot.usermanagementsystem.dao.request;
+package springboot.usermanagementsystem.dao.mapper.request;
 
 import jakarta.validation.constraints.Pattern;
 import java.util.List;
