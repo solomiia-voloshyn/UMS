@@ -1,4 +1,4 @@
-package springboot.usermanagementsystem.dao.response;
+package springboot.usermanagementsystem.dao.mapper.response;
 
 import java.util.List;
 import lombok.Data;
