@@ -1,9 +1,9 @@
-package springboot.usermanagementsystem;
+package springboot.usermanagementsystem.dao.mapper;
 
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
-import springboot.usermanagementsystem.dao.mapper.request.UserRequestDto;
-import springboot.usermanagementsystem.dao.mapper.response.UserResponseDto;
+import springboot.usermanagementsystem.dao.request.UserRequestDto;
+import springboot.usermanagementsystem.dao.response.UserResponseDto;
 import springboot.usermanagementsystem.model.Status;
 import springboot.usermanagementsystem.model.User;
 import springboot.usermanagementsystem.model.UserRole;
