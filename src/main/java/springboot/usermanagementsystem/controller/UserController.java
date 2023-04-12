@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springboot.usermanagementsystem.UserMapper;
-import springboot.usermanagementsystem.dao.mapper.request.UserRequestDto;
-import springboot.usermanagementsystem.dao.mapper.response.UserResponseDto;
+import springboot.usermanagementsystem.dao.mapper.UserMapper;
+import springboot.usermanagementsystem.dao.request.UserRequestDto;
+import springboot.usermanagementsystem.dao.response.UserResponseDto;
 import springboot.usermanagementsystem.model.User;
 import springboot.usermanagementsystem.service.UserService;
 

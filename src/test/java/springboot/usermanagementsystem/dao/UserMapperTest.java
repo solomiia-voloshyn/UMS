@@ -1,4 +1,4 @@
-package springboot.usermanagementsystem.dao.mapper;
+package springboot.usermanagementsystem.dao;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import springboot.usermanagementsystem.UserMapper;
-import springboot.usermanagementsystem.dao.mapper.request.UserRequestDto;
-import springboot.usermanagementsystem.dao.mapper.response.UserResponseDto;
+import springboot.usermanagementsystem.dao.mapper.UserMapper;
+import springboot.usermanagementsystem.dao.request.UserRequestDto;
+import springboot.usermanagementsystem.dao.response.UserResponseDto;
 import springboot.usermanagementsystem.model.Status;
 import springboot.usermanagementsystem.model.User;
 import springboot.usermanagementsystem.model.UserRole;
