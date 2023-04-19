@@ -34,7 +34,14 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.security:spring-security-test")
+    implementation("io.jsonwebtoken:jjwt-api:0.11.2")
+    implementation("io.jsonwebtoken:jjwt-impl:0.11.2")
+    implementation("io.jsonwebtoken:jjwt-jackson:0.11.2")
     testImplementation("io.rest-assured:spring-mock-mvc:4.0.0")
+    implementation("org.testcontainers:testcontainers-bom:1.16.0")
+    testImplementation ("org.testcontainers:junit-jupiter:1.16.0")
+    implementation ("org.testcontainers:postgresql:1.16.0")
+    implementation ("io.swagger:swagger-annotations:1.6.2")
 }
 
 tasks.withType<Test> {
