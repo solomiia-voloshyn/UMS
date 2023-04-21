@@ -42,14 +42,14 @@ public class UserController {
         return userResponseDtoMapper.toDto(userService.findById(id));
     }
 
-    @PostMapping
+    @PostMapping("/new")
     @ApiOperation(value = "Create new user")
     public UserResponseDto createUser(@RequestBody @Valid UserRequestDto dto) {
         User user = userRequestDtoMapper.toModel(dto);
         return userResponseDtoMapper.toDto(userService.save(user));
     }
 
-    @PutMapping("/{id}")
+    @PutMapping(("/{id}/edit"))
     @ApiOperation(value = "Update information about user")
     public UserResponseDto updateUser(
             @RequestBody @Valid UserRequestDto dto,
