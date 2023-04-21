@@ -24,6 +24,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation ("org.springframework.boot:spring-boot-starter-logging")
     implementation("org.jetbrains:annotations:23.1.0")
     implementation("org.jetbrains:annotations:20.1.0")
     implementation("jakarta.validation:jakarta.validation-api:3.0.2")
